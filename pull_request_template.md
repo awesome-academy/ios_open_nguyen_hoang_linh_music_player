@@ -3,4 +3,4 @@
 ### [Redmine link]
 
 #### Screenshots (nếu có)
-![Screenshot](/Screenshots/simpleView.png)
+<img src="/Screenshots/image.svg" width="100"/>
