@@ -1,6 +1,5 @@
-## Build UIImage: Song artwork, UILabel: Title of the song, UILabel: Performer, Background color: Black
+## [Pull request title]
 
 ### [Redmine link]
 
 #### Screenshots (nếu có)
-<img src="/Screenshots/simpleView.png" width="500"/>
