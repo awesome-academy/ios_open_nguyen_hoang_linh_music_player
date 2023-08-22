@@ -3,4 +3,4 @@
 ### [Redmine link]
 
 #### Screenshots (nếu có)
-![Screenshot](/screenshots/simpleView.png)
+![Screenshot](/Screenshots/simpleView.png)
