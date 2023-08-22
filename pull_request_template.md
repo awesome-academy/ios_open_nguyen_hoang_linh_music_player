@@ -3,4 +3,4 @@
 ### [Redmine link]
 
 #### Screenshots (nếu có)
-<img src="/Screenshots/simpleView.png" width="200"/>
+<img src="/Screenshots/simpleView.png" width="500"/>
