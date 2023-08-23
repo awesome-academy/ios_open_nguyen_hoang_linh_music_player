@@ -33,21 +33,61 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xuh-08-2pC">
+                                <rect key="frame" x="48" y="529" width="279" height="31"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T6-qJ-qLv">
+                                <rect key="frame" x="50" y="609" width="49" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="backward.end.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxg-YB-ZC2">
+                                <rect key="frame" x="276" y="609" width="49" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="forward.end.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSf-g0-qQq">
+                                <rect key="frame" x="138" y="589" width="99" height="75"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="play.circle.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="50"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gvh-A5-MyM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="oir-yq-USD" firstAttribute="top" secondItem="cgJ-Ua-ZcM" secondAttribute="bottom" constant="20" id="6WR-IN-Yh6"/>
+                            <constraint firstItem="FSf-g0-qQq" firstAttribute="leading" secondItem="7T6-qJ-qLv" secondAttribute="trailing" constant="39" id="7DB-bm-wWU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xuh-08-2pC" secondAttribute="trailing" constant="50" id="8dK-wx-lR2"/>
                             <constraint firstItem="oir-yq-USD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="AtT-uC-Bi5"/>
+                            <constraint firstItem="nxg-YB-ZC2" firstAttribute="top" secondItem="xuh-08-2pC" secondAttribute="bottom" constant="50" id="CPD-7r-C7Y"/>
                             <constraint firstItem="CE1-sC-Y4n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="D00-4C-Zxp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cgJ-Ua-ZcM" secondAttribute="trailing" constant="50" id="EL9-hI-VmT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nxg-YB-ZC2" secondAttribute="trailing" constant="50" id="Lpj-J7-WSz"/>
+                            <constraint firstItem="xuh-08-2pC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Vjr-DQ-le5"/>
                             <constraint firstItem="cgJ-Ua-ZcM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="bGp-WW-Fc6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oir-yq-USD" secondAttribute="trailing" constant="50" id="bXG-GD-2iy"/>
+                            <constraint firstItem="7T6-qJ-qLv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="bmK-KU-MVp"/>
+                            <constraint firstItem="FSf-g0-qQq" firstAttribute="top" secondItem="xuh-08-2pC" secondAttribute="bottom" constant="30" id="ezV-gf-513"/>
+                            <constraint firstItem="xuh-08-2pC" firstAttribute="top" secondItem="CE1-sC-Y4n" secondAttribute="bottom" constant="50" id="mXQ-jW-I6j"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CE1-sC-Y4n" secondAttribute="trailing" constant="50" id="mps-us-Sx0"/>
                             <constraint firstItem="CE1-sC-Y4n" firstAttribute="top" secondItem="oir-yq-USD" secondAttribute="bottom" constant="10" id="mvl-bw-4pj"/>
                             <constraint firstItem="cgJ-Ua-ZcM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="rcg-LE-1Lt"/>
+                            <constraint firstItem="nxg-YB-ZC2" firstAttribute="leading" secondItem="FSf-g0-qQq" secondAttribute="trailing" constant="39" id="voF-cS-tgi"/>
+                            <constraint firstItem="7T6-qJ-qLv" firstAttribute="top" secondItem="xuh-08-2pC" secondAttribute="bottom" constant="50" id="xpi-Pj-Qkv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playButton" destination="FSf-g0-qQq" id="Hht-Hu-Y47"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,6 +95,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backward.end.fill" catalog="system" width="128" height="101"/>
         <image name="cover" width="640" height="640"/>
+        <image name="forward.end.fill" catalog="system" width="128" height="101"/>
+        <image name="play.circle.fill" catalog="system" width="128" height="123"/>
     </resources>
 </document>
