@@ -11,4 +11,5 @@ struct Song {
     var songImage : String
     var songName: String
     var songArtist: String
+    var songURL: String
 }
